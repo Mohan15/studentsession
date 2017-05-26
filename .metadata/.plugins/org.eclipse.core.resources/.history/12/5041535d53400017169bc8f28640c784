@@ -1,0 +1,19 @@
+package com.mr;
+
+import java.io.IOException;
+import javax.servlet.http.*;
+import javax.servlet.ServletException;
+
+@SuppressWarnings("serial")
+public class LoginServlet extends HttpServlet {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+		resp.setContentType("text/html");
+		String mail = SessionHelper.currentUser(req);
+		if (mail != null) {
+			HttpSession s1 = req.getSession(false);
+			resp.sendRedirect("dashboard");
+		} else {
+			req.getRequestDispatcher("index.html").include(req, resp);
+		}
+	}
+}

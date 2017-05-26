@@ -1,0 +1,36 @@
+
+// Java program to demonstrate ListIterator
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class Test {
+	public static void main(String[] args) {
+		ArrayList al = new ArrayList();
+		for (int i = 0; i < 10; i++)
+			al.add(i);
+
+		System.out.println(al);
+
+		ListIterator ltr = al.listIterator();
+		 while(ltr.hasPrevious())
+	            System.out.print(ltr.previous().toString()+ " back");
+	 
+		// checking the next element availabilty
+		while (ltr.hasNext()) {
+			int i = (Integer) ltr.next();
+			//System.out.println(i);
+			if (i % 2 == 0) {
+				//System.out.println(i++); 
+				//ltr.add(i);
+				//ltr.set(i); 
+			//	ltr.remove();
+				
+				ltr.add("Hi");
+				
+			}
+		}
+		al.add("mohan");
+		System.out.println();
+		System.out.println(al);
+	}
+}

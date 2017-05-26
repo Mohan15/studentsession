@@ -1,0 +1,6 @@
+<html>
+<%
+String a=request.getParameter("va");
+
+out.print(a);
+%></html>

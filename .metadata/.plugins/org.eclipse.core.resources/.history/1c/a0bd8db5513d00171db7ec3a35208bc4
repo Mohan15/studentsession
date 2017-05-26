@@ -1,0 +1,12 @@
+<%@ page language ="java" contentType="text/html"; ch-pageEncoding="ISO-8859-1"%>
+
+<html>
+<body>
+<% 
+int i =10;
+for(int j=0;j<i;j++){
+	out.println(j);
+}
+%>
+</body>
+</html>

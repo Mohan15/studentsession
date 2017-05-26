@@ -1,0 +1,13 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:BeforeCollections,org.eclipse.launchbar.core.descriptorType.default\:containsall,org.eclipse.launchbar.core.descriptorType.default\:AllIteratators,org.eclipse.launchbar.core.descriptorType.default\:Test,org.eclipse.launchbar.core.descriptorType.default\:SetInterface,org.eclipse.launchbar.core.descriptorType.default\:SetInterfaceUsage,org.eclipse.launchbar.core.descriptorType.default\:ListOperations,org.eclipse.launchbar.core.descriptorType.default\:ListSearchOperations,org.eclipse.launchbar.core.descriptorType.default\:ListRangeView,org.eclipse.launchbar.core.descriptorType.default\:ScriptletJsp,org.eclipse.launchbar.core.descriptorType.default\:ScriptingInJsp,org.eclipse.launchbar.core.descriptorType.default\:JspFirstApp,org.eclipse.launchbar.core.descriptorType.default\:ImplicitObjects,org.eclipse.launchbar.core.descriptorType.default\:ExpectionJsp,org.eclipse.launchbar.core.descriptorType.default\:ImplicObj,org.eclipse.launchbar.core.descriptorType.default\:ForwardAction,org.eclipse.launchbar.core.descriptorType.default\:JspBeanClass,org.eclipse.launchbar.core.descriptorType.default\:SetGetActiontag,org.eclipse.launchbar.core.descriptorType.default\:MVCUsingJsp,org.eclipse.launchbar.core.descriptorType.default\:StudentDB,org.eclipse.launchbar.core.descriptorType.default\:Student
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:AllIteratators/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:AllIteratators/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:ImplicitObjects/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:JspBeanClass/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:MVCUsingJsp/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ScriptletJsp/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:SetGetActiontag/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Test/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Test/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

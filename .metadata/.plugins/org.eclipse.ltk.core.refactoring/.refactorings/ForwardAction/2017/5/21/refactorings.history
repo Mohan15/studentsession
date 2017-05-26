@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JspFirstApp/war/forward.jsp&apos; to &apos;forwardAction.jsp&apos;" description="Rename resource &apos;forward.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="war/forward.jsp" name="forwardAction.jsp" stamp="1495446547116" updateReferences="true"/>
+</session>
